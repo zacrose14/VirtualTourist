@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		11C950281FED53AE007FC3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C950271FED53AE007FC3AC /* AppDelegate.swift */; };
-		11C9502A1FED53AE007FC3AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C950291FED53AE007FC3AC /* ViewController.swift */; };
+		11C9502A1FED53AE007FC3AC /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C950291FED53AE007FC3AC /* MapVC.swift */; };
 		11C9502D1FED53AE007FC3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C9502B1FED53AE007FC3AC /* Main.storyboard */; };
 		11C9502F1FED53AE007FC3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11C9502E1FED53AE007FC3AC /* Assets.xcassets */; };
 		11C950321FED53AE007FC3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11C950301FED53AE007FC3AC /* LaunchScreen.storyboard */; };
@@ -17,7 +17,7 @@
 /* Begin PBXFileReference section */
 		11C950241FED53AE007FC3AC /* VirtualTourist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VirtualTourist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C950271FED53AE007FC3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11C950291FED53AE007FC3AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11C950291FED53AE007FC3AC /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		11C9502C1FED53AE007FC3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11C9502E1FED53AE007FC3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11C950311FED53AE007FC3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				11C950271FED53AE007FC3AC /* AppDelegate.swift */,
-				11C950291FED53AE007FC3AC /* ViewController.swift */,
+				11C950291FED53AE007FC3AC /* MapVC.swift */,
 				11C9502B1FED53AE007FC3AC /* Main.storyboard */,
 				11C9502E1FED53AE007FC3AC /* Assets.xcassets */,
 				11C950301FED53AE007FC3AC /* LaunchScreen.storyboard */,
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11C9502A1FED53AE007FC3AC /* ViewController.swift in Sources */,
+				11C9502A1FED53AE007FC3AC /* MapVC.swift in Sources */,
 				11C950281FED53AE007FC3AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +277,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AZF3TCTM4;
 				INFOPLIST_FILE = VirtualTourist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zacrose.VirtualTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3AZF3TCTM4;
 				INFOPLIST_FILE = VirtualTourist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zacrose.VirtualTourist;
 				PRODUCT_NAME = "$(TARGET_NAME)";
