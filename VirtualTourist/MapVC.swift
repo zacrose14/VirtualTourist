@@ -11,8 +11,13 @@ import MapKit
 
 class MapVC: UIViewController {
     
-    // make primary vc?
-
+    // Outlets
+    
+    // Variables
+    
+    // Core Data Code
+    
+    // Overrides
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
