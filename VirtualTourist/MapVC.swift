@@ -10,6 +10,8 @@ import UIKit
 import MapKit
 
 class MapVC: UIViewController {
+    
+    // make primary vc?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +21,7 @@ class MapVC: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
     }
 
 
