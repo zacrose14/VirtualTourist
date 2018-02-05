@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PhotosVC: UIView {
+class PhotosVC: UIViewController {
 
     // Outlets
     
