@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import MapKit
+import CoreData
 
 class PhotosVC: UIViewController {
 
@@ -17,5 +19,9 @@ class PhotosVC: UIViewController {
     // Core Data Code
     
     // Overrides
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 
 }
