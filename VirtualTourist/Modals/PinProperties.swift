@@ -11,7 +11,7 @@ import CoreData
 
 extension Pin {
     
-    //Fetch Pin
+    // Fetch Pin
     
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Pin> {
         return NSFetchRequest<Pin>(entityName: "Pin");
@@ -22,7 +22,7 @@ extension Pin {
     @NSManaged public var photo: NSSet?
     
 }
-//Access Photo
+// Access Photo
 
 extension Pin {
     

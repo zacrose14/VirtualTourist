@@ -85,16 +85,7 @@ class MapVC: UIViewController, MKMapViewDelegate, UIGestureRecognizerDelegate {
         
         gestureBegin = true
         return true
-    }
-    
-    @IBAction func responseTap(_ sender: Any) {
-        if gestureBegin {
-            
-            let gestureRecognizer = sender as! UILongPressGestureRecognizer
-            let gestureTouchLocation = gestureRecognizer.location(in: mapView)
-            addAnnotation(fromPoint: gestureTouchLocation)
-            gestureBegin = false
-        }
+
     }
     
     // Fetch Results
@@ -140,6 +131,19 @@ class MapVC: UIViewController, MKMapViewDelegate, UIGestureRecognizerDelegate {
         mapView.addAnnotation(annotation)
         
     }
+    
+    @IBAction func responseTap(_ sender: UILongPressGestureRecognizer) {
+    
+        if gestureBegin {
+            
+            let gestureRecognizer = sender as! UILongPressGestureRecognizer
+            let gestureTouchLocation = gestureRecognizer.location(in: mapView)
+            addAnnotation(fromPoint: gestureTouchLocation)
+            gestureBegin = false
+        }
+    
+    }
+    
     
     func addAnnotation(fromCoord: CLLocationCoordinate2D) {
         

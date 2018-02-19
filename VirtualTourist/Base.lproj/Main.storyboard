@@ -58,7 +58,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="wGW-bh-Hzb">
                     <connections>
-                        <action selector="responseTap:" destination="BYZ-38-t0r" id="9sz-ZL-I0Z"/>
+                        <action selector="responseTap:" destination="BYZ-38-t0r" id="45o-Vf-uyU"/>
                         <outlet property="delegate" destination="BYZ-38-t0r" id="mRv-oy-itl"/>
                     </connections>
                 </pongPressGestureRecognizer>
@@ -117,6 +117,10 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="sZN-ha-wUr" id="Veh-fT-fR7"/>
+                                    <outlet property="delegate" destination="sZN-ha-wUr" id="bns-vB-Iy8"/>
+                                </connections>
                             </collectionView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="pSP-2w-vKZ">
                                 <rect key="frame" x="177.5" y="323" width="20" height="20"/>
